@@ -24,7 +24,7 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress
     volumes:
       - wp_data:/var/www/html
-      - ./alaska-group:/var/www/html/wp-content/themes/alaska-group
+      - .:/var/www/html/wp-content/themes/alaska-group
 
 volumes:
   db_data:
